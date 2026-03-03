@@ -1,0 +1,66 @@
+1) Open PowerShell
+
+2) Check Git installation
+   git --version
+   → Verifies that Git is installed.
+
+3) Go to your project directory
+   cd path/to/project
+
+4) Check repository status
+   git status
+   → Shows changed or untracked files.
+
+5) Add a specific file
+   git add README.md
+   → Stages the file for commit.
+
+6) Check status again
+   git status
+   → Confirms the file is staged.
+
+7) Commit changes
+   git commit -m "This is the first commit"
+   → Saves staged changes to the LOCAL repository with a message.
+
+8) Check current branch
+   git branch
+   → Shows current branch (usually master or main).
+
+9) Rename branch to main
+   git branch -M main
+
+10) Add remote GitHub repository
+    git remote add origin https://github.com/AYUSHNATEKAR/Git.git
+    → Connects local repo to GitHub repository.
+
+11) Verify remote connection
+    git remote -v
+    → Shows fetch and push URLs.
+
+12) Push code to GitHub
+    git push -u origin main
+    → Uploads commits and sets upstream branch.
+
+13) Add all files
+    git add .
+    → Stages all files (does NOT push).
+
+14) Check status
+    git status
+    → Shows staged files.
+
+15) Commit and push again
+    git commit -m "Added remaining files"
+    git push origin main
+    → Sends committed changes to GitHub.
+
+16) Clone Repositor
+    open new cmd and create one folder and then go that folder path and run
+    git clone https://github.com/AYUSHNATEKAR/Git.git (Repository link)
+
+17) you can also add files on that same repository in that clone file and you can push it
+    git add . 
+    git status
+    git push origin main	
+
